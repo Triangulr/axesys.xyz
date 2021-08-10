@@ -1,3 +1,4 @@
 # chiya.dev
 
-Source code of [chiya.dev](https://chiya.dev) website for [@chiyadev](https://github.com/chiyadev).
+Source code of [axesys.xyz](https://axesys.xyz).
+Original by [@chiyadev](https://github.com/chiyadev).
