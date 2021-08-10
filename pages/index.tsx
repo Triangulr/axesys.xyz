@@ -45,7 +45,7 @@ const Home = () => {
     <Layout title="Axesys" description="Web source by phosphene47">
     <title>Axesys</title>
     <meta content="Axesys" property="og:title" />
-    <meta content="Welcome to the Axesys Hub!" property="og:description" />
+    <meta content="axesys.xyz" property="og:description" />
     <meta content="https://embed.com/axesys.xyz" property="og:url" />
     <meta content="https://embed.com/embedimage.png" property="og:image" />
     <meta content="#FFC0CB" data-react-helmet="true" name="theme-color" />
