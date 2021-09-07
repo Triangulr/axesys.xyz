@@ -4,7 +4,6 @@ import { IoLogoGithub, IoLogoTwitter, IoCodeSlash, IoAlertCircleOutline, IoMailO
 
 const Links = () => {
   return (
-
     <Wrap spacing={1} justify="center" maxW="sm">
       <WrapItem>
         <Button as="a" href="https://github.com/triangulr" variant="ghost" size="sm" leftIcon={<IoLogoGithub />}>
@@ -18,25 +17,24 @@ const Links = () => {
         </Button>
       </WrapItem>
 
-  <WrapItem>
+      <WrapItem>
         <Button as="a" href="mailto:hello@axesys.xyz" variant="ghost" size="sm" leftIcon={<IoMailOutline />}>
-          Mail
+          Twitter
         </Button>
       </WrapItem>
-    </Wrap>
-      
-   <WrapItem>
-        <Button as="a" href="https://status.axesys.xyz" variant="ghost" size="sm" leftIcon={<IoAlertCircleOutline />}>
-          Status
-        </Button>
-      </WrapItem>
-    </Wrap>
 
-  <WrapItem>
-        <Button as="a" href="https://github.com/chiyadev/chiya.dev" variant="ghost" size="sm" leftIcon={<IoCodeSlash />}>
-          Source Code
+      <WrapItem>
+        <Button as="a" href="https://status.axesys.xyz" variant="ghost" size="sm" leftIcon={<IoAlertCircleOutline />}>
+          Twitch
         </Button>
       </WrapItem>
+
+      <WrapItem>
+        <Button as="a" href="https://github.com/chiyadev/chiya.dev" variant="ghost" size="sm" leftIcon={<IoCodeSlash />}>
+          Email
+        </Button>
+      </WrapItem>
+    </Wrap>
   );
 };
 
