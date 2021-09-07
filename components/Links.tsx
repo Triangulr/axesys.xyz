@@ -19,19 +19,19 @@ const Links = () => {
 
       <WrapItem>
         <Button as="a" href="mailto:hello@axesys.xyz" variant="ghost" size="sm" leftIcon={<IoMailOutline />}>
-          Twitter
+          Mail
         </Button>
       </WrapItem>
 
       <WrapItem>
         <Button as="a" href="https://status.axesys.xyz" variant="ghost" size="sm" leftIcon={<IoAlertCircleOutline />}>
-          Twitch
+          Status
         </Button>
       </WrapItem>
 
       <WrapItem>
         <Button as="a" href="https://github.com/chiyadev/chiya.dev" variant="ghost" size="sm" leftIcon={<IoCodeSlash />}>
-          Email
+          Source Code
         </Button>
       </WrapItem>
     </Wrap>
