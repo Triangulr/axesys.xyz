@@ -4,7 +4,7 @@ import { IoLogoGithub, IoLogoTwitter, IoCodeSlash, IoAlertCircleOutline, IoMailO
 
 const Links = () => {
   return (
-  <Wrap>
+
     <Wrap spacing={1} justify="center" maxW="sm">
       <WrapItem>
         <Button as="a" href="https://github.com/triangulr" variant="ghost" size="sm" leftIcon={<IoLogoGithub />}>
@@ -37,8 +37,6 @@ const Links = () => {
           Source Code
         </Button>
       </WrapItem>
-
-</Wrap>
   );
 };
 
