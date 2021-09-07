@@ -1,6 +1,6 @@
 import { Button, Wrap, WrapItem } from "@chakra-ui/react";
 import React, { memo } from "react";
-import { IoLogoGithub, IoLogoTwitter, IoCodeSlash, IoLogoDiscord} from "react-icons/io5";
+import { IoLogoGithub, IoLogoTwitter, IoCodeSlash, IoAlertCircleOutline, IoMailOutline} from "react-icons/io5";
 
 const Links = () => {
   return (
@@ -19,8 +19,15 @@ const Links = () => {
       </WrapItem>
 
   <WrapItem>
-        <Button as="a" href="https://discord.com/app" variant="ghost" size="sm" leftIcon={<IoLogoDiscord />}>
-          Axesys#6969
+        <Button as="a" href="mailto:hello@axesys.xyz" variant="ghost" size="sm" leftIcon={<IoMailOutline />}>
+          Mail
+        </Button>
+      </WrapItem>
+    </Wrap>
+      
+   <WrapItem>
+        <Button as="a" href="https://status.axesys.xyz" variant="ghost" size="sm" leftIcon={<IoAlertCircleOutline />}>
+          Status
         </Button>
       </WrapItem>
     </Wrap>
