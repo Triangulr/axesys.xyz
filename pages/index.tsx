@@ -66,7 +66,7 @@ const Home = () => {
 
               <SlideFade in={showDesc} offsetY={-16}>
                 <VStack spacing={8}>
-                  <div>The supreme good for man is happiness - perfection of the soul and also body in accordance with virtues.
+                  <div>Pancakes.
                   </div>
 
                   <Links />
