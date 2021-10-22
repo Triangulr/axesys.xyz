@@ -20,8 +20,6 @@ const Layout = ({ children, title, description }: { children?: ReactNode; title:
       <meta name="application-name" content="chiya.dev" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
-
-      <script async defer data-website-id="f555f542-14e4-47ec-9c64-615f0b8ff286" src="https://umami.chiya.dev/umami.js" />
     </Head>
 
     {children}
