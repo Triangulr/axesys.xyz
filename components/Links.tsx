@@ -1,6 +1,6 @@
 import { Button, Wrap, WrapItem } from "@chakra-ui/react";
 import React, { memo } from "react";
-import { IoLogoGithub, IoLogoTwitter, IoAlertCircleOutline, IoMailOutline, IoGridSharp} from "react-icons/io5";
+import { IoLogoGithub, IoLogoTwitter, IoAlertCircleOutline, IoMailOutline} from "react-icons/io5";
 
 const Links = () => {
   return (
@@ -28,12 +28,7 @@ const Links = () => {
           Status
         </Button>
       </WrapItem>
-      
-      <WrapItem>
-        <Button as="a" href="https://bit.ly/axesys-o365" variant="ghost" size="sm" leftIcon={<IoGridSharp />}>
-          O365 Portal
-        </Button>
-      </WrapItem>
+     
     </Wrap>
   );
 };
