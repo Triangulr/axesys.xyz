@@ -6,13 +6,13 @@ const Links = () => {
   return (
     <Wrap spacing={1} justify="center" maxW="sm">
       <WrapItem>
-        <Button as="a" href="https://github.com/triangulr" variant="ghost" size="sm" leftIcon={<IoLogoGithub />}>
+        <Button as="a" href="https://l.axesys.xyz/github" variant="ghost" size="sm" leftIcon={<IoLogoGithub />}>
           GitHub
         </Button>
       </WrapItem>
 
       <WrapItem>
-        <Button as="a" href="https://twitter.com/_triangulr" variant="ghost" size="sm" leftIcon={<IoLogoTwitter />}>
+        <Button as="a" href="https://l.axesys.xyz/twitter" variant="ghost" size="sm" leftIcon={<IoLogoTwitter />}>
           Twitter
         </Button>
       </WrapItem>
@@ -24,7 +24,7 @@ const Links = () => {
       </WrapItem>
 
       <WrapItem>
-        <Button as="a" href="https://status.axesys.xyz" variant="ghost" size="sm" leftIcon={<IoAlertCircleOutline />}>
+        <Button as="a" href="https://l.axesys.xyz/status" variant="ghost" size="sm" leftIcon={<IoAlertCircleOutline />}>
           Status
         </Button>
       </WrapItem>
