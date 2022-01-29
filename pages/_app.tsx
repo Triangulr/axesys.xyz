@@ -3,6 +3,7 @@ import { AppProps } from "next/app";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import "focus-visible";
 import "inter-ui/inter.css";
+import '../styles/global.css'
 
 const fallbackFonts =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
@@ -31,5 +32,6 @@ const App = ({ Component }: AppProps) => {
     </ChakraProvider>
   );
 };
+
 
 export default memo(App);
