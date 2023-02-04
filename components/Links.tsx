@@ -30,7 +30,7 @@ const Links = () => {
       </WrapItem>
      
       <WrapItem>
-        <Button as="a" href="https://anime.kona.moe/@axesys" variant="ghost" size="sm" leftIcon={<IoLogoMastodon />}>
+        <Button as="a" rel="me" href="https://anime.kona.moe/@axesys" variant="ghost" size="sm" leftIcon={<IoLogoMastodon />}>
           Mastodon
         </Button>
       </WrapItem>
