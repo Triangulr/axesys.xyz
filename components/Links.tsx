@@ -1,6 +1,6 @@
 import { Button, Wrap, WrapItem } from "@chakra-ui/react";
 import React, { memo } from "react";
-import { IoLogoGithub, IoLogoTwitter, IoAlertCircleOutline, IoMailOutline} from "react-icons/io5";
+import { IoLogoGithub, IoLogoTwitter, IoAlertCircleOutline, IoMailOutline, IoLogoMastodon} from "react-icons/io5";
 
 const Links = () => {
   return (
@@ -29,6 +29,12 @@ const Links = () => {
         </Button>
       </WrapItem>
      
+      <WrapItem>
+        <Button as="a" href="https://anime.kona.moe/@axesys" variant="ghost" size="sm" leftIcon={<IoLogoMastodon />}>
+          Mastodon
+        </Button>
+      </WrapItem>
+      
     </Wrap>
   );
 };
