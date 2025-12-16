@@ -66,7 +66,7 @@ const Home = () => {
 
               <SlideFade in={showDesc} offsetY={-16}>
                 <VStack spacing={8}>
-                  <div>idk what to put here
+                  <div>hey there :D
                   </div>
 
                   <Links />
